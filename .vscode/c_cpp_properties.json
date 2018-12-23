@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/daojun/catkin_ws/devel/include",
+                "/home/daojun/turtlebot3/devel/include",
+                "/opt/ros/melodic/include",
+                "/home/daojun/catkin_ws/src/aruco_ekf_slam-master/include",
+                "/home/daojun/catkin_ws/src/autolabor_keyboard_control/include",
+                "/home/daojun/catkin_ws/src/utilities/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
