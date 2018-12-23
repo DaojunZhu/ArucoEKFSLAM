@@ -134,7 +134,6 @@ ${PROJECT_SOURCE_DIR}/include
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(EKFSLamNode src/EKFNode.cpp)
 add_executable(VisualizeTrajNode src/VisualizeTrajNode.cpp)
-add_executable(VisualizeTrajNode2 src/VisualizeTrajNode2.cpp)
 ## Specify libraries to link a library or executable target against
  target_link_libraries(EKFSLamNode
    ${catkin_LIBRARIES}  ${OpenCV_LIBS} ${aruco_LIBS} Eigen3::Eigen
@@ -144,9 +143,6 @@ add_executable(VisualizeTrajNode2 src/VisualizeTrajNode2.cpp)
    ${catkin_LIBRARIES} 
  )
 
- target_link_libraries(VisualizeTrajNode2 
- ${catkin_LIBRARIES} 
-)
 #############
 ## Install ##
 #############
